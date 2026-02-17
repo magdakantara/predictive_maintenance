@@ -198,7 +198,7 @@ def evaluate_on_test(name, model, Xtr, ytr, Xte, yte, threshold, save_pr_curve=T
     prec = precision_score(yte, pred, zero_division=0)
     rec = recall_score(yte, pred, zero_division=0)
     f1 = f1_score(yte, pred, zero_division=0)
-    cm = confusion_matrix(yte, pred)
+    cm = confusion_matrix(yte, pred) #
 
     result = {
         "model": name,
