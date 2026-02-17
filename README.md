@@ -82,6 +82,4 @@ Because failure events are extremely rare, the task is inherently difficult. Eve
 - Advanced resampling strategies (SMOTE, undersampling)
 ---
 
-**Author:** Maria Magdalini Kantara  
-BSc Data Science & AI – TU/e
 
