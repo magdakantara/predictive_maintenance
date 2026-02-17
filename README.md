@@ -21,11 +21,15 @@ As a result, model evaluation emphasizes **Precision–Recall performance** rath
 ---
 
 ## Project Structure
-├── data_cleaning_engineering.py # Preprocessing & feature engineering, adding features like rolling mean for more insights trying to combat the imbalance.
-├── modeling.py # Model training & evaluation
-├── EDA notebooks/ # Exploratory analysis one for raw unprocessed data and one for the clean one
-├── datasets/ # Data files of the processed csv files and some figures
-└── archive/ # data folder
+data_cleaning_engineering.py # Preprocessing & feature engineering, adding features like rolling mean for more insights trying to combat the imbalance.
+
+ modeling.py # Model training & evaluation
+ 
+EDA notebooks/ # Exploratory analysis one for raw unprocessed data and one for the clean one
+
+datasets/ # Data files of the processed csv files and some figures
+
+archive/ # data folder
 
 
 ---
